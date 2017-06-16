@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_custom_toast_shape"
+    android:gravity="center"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/custom_toast_iv"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/loading" />
+
+    <TextView
+        android:id="@+id/custom_toast_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:maxWidth="90dp"
+        android:text="正在加载,请稍候."
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</LinearLayout>
